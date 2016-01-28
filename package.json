@@ -1,0 +1,22 @@
+{
+  "name": "yagni",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-js": "browserify src/index.js -o build/bundle.js -t [ babelify --presets [ es2015 react ] ]"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.3.26",
+    "browserify": "^13.0.0",
+    "react": "^0.14.6"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babelify": "^7.2.0"
+  }
+}
